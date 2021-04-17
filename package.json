@@ -13,7 +13,7 @@
     "build-prod": "webpack --mode production",
     "start": "webpack serve --hot --mode development",
     "predeploy": "npm run build-prod",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "vue": "^2.6.12"
